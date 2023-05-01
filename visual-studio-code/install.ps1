@@ -6,7 +6,7 @@ If (Get-ChildItem -Path "$ScriptPath/extensions.txt")
     
     Write-Verbose -Message "Using Visual Studio Code extentions list from local Git repository."
     
-    Get-Content -Path "$env:TEMP\extensions.txt" | ForEach-Object {
+    Get-Content -Path "$ScriptPath\extensions.txt" | ForEach-Object {
         Invoke-Expression -Command "code --force --install-extension $_"
     }
 }
