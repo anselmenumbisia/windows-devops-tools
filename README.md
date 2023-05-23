@@ -31,5 +31,5 @@ The [`visual-studio-code/extensions.txt`](/visual-studio-code/extensions.tx) TXT
 From a Windows Powershell prompt, run the following command line to install all extensions recorded in the inventory file.
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fjudith/windows-devops-tools/main/visual-studio-code/install.ps1')
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fjudith/windows-devops-tools/main/visual-studio-code/install.ps1'))
 ```
