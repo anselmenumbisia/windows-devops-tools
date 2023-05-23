@@ -21,7 +21,7 @@ Run first `choco list --exact 'package_name' --all` to identify available versio
 Start a _New_ Windows Powershell prompt **as an Administrator**, then run the following command line to install all packages recored in the inventory file.
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fjudith/windows-devops-tools/main/chocolatey/install.ps1')
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fjudith/windows-devops-tools/main/chocolatey/install.ps1'))
 ```
 
 ## Install Visual Studio Code extensions
