@@ -6,7 +6,7 @@ This repository contains configuration files and scripts enabling engineers to c
 
 Chocolatey has been prefered to WinGet because as it usually is up-to-date with version released by upstream projects.
 
-Start a Windows Powershell prompt **as an Administrateur**, then run the following command line to install [Cholatey Package Manager](https://chocolatey.com)
+Start a Windows Powershell prompt **as an Administrator**, then run the following command line to install [Cholatey Package Manager](https://chocolatey.com)
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
